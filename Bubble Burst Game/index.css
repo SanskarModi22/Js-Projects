@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
     width: 100vw;
     height: 100vh;   
     overflow: hidden;
@@ -119,5 +119,5 @@ h1{
 }
 #finalScore{
     font-size: xx-large;
-    
+    color:#fff;
 }

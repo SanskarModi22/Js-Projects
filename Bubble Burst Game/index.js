@@ -44,7 +44,9 @@ for(var i=1;i<11;i++){
         let style = getComputedStyle(this);
         let x=style.width;
         let currScore=0;
-        if(x.length===4){
+        if(x.length===3){
+                currScore+=parseInt(x[0]);
+        }else if(x.length===4){
             for(let z=0;z<2;z++){
                 currScore+=parseInt(x[z]);
             }
